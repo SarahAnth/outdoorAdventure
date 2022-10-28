@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+li,a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    width: 120px;
+}
+
+header {
+    background-image: url(/images/heroBg.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 2% 10% 2% 10%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding-left: 40%;
+}
+
+header nav li, header li {
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+}
+
+.takeAction {
+    background-color: #fb2056;
+    border-radius: 2em;
+    align-self: center;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+}

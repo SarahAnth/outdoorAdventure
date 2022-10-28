@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.upcomingTours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 120px 120px;
+}
+
+.upcomingToursText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    padding-top: 10px;
+    padding-right: 60px;
+    font-family: "montserrat",sans-serif;
+    gap: 2em;
+}
+
+.upcomingToursText h2{
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
+.upcomingToursText p{
+    font-family: 'Noto Sans',sans-serif;
+    line-height: 1.7;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color: #fb2056;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 30px;
+}
+
+.imgLeft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imgLeft .outdoorOne {
+    width: 360px;
+    height: 225px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.imgLeft .outdoorTwo {
+    width: 360px;
+    height: 367px;
+    border-radius: 4px;
+}
+
+.imgRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imgRight .outdoorThree {
+    width: 360px;
+    height: 367px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.imgRight .outdoorFour {
+    width: 360px;
+    height: 207px;
+    border-radius: 4px;
+}

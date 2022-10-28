@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.exploreWorld {
+    background-image: url(/images/exploreNewWorld.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 770px;
+}
+
+.exploreWorldText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    padding-top: 20%;
+    padding-left: 55%;
+    font-family: "montserrat", sans-serif;
+    align-items: flex-start;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #fb2056;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 30px;
+}
+
+.exploreWorldText h2,
+.exploreWorldText img,
+.exploreWorldText p {
+    padding-bottom: 4%;
+}
+
+.exploreWorldText h2{
+    font-size: 2rem;
+}
+
+.exploreWorldText .text{
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.exploreWorldText .button{
+    padding-top: 3%;
+}

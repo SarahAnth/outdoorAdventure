@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+li,
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    width: 120px;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 2% 10% 2% 10%;
+    position: absolute;
+    width: 80%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding-left: 40%;
+}
+
+header nav li,
+header p {
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+}
+
+.takeAction {
+    background-color: #fb2056;
+    border-radius: 2em;
+    align-self: center;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/*main*/
+
+/*bannière principale*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banniere {
+    background-image: url(/images/heroBg.png);
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenuBanniere {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 270px;
+    line-height: 3rem;
+    color: white;
+    gap: 25px;
+}
+
+.contenuBanniere h1,
+.contenuBanniere h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.contenuBanniere h2 {
+    font-size: 1.5rem;
+}
+
+.contenuBanniere h1 {
+    font-size: 4rem;
+}
+
+.contenuBanniere .learnMore {
+    background-color: #fb2056;
+    border-radius: 30px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+/*citation*/
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #ecececd7;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 10% 2% 0
+}
+
+.quotes {
+    width: 5vw;
+    padding: 2%;
+    opacity: .5;
+}
+
+.citation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3em;
+}
+
+h1,
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+/* upcoming events*/
+.upcomingEvents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.upcomingEvents h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.upcomingEvents img {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.upcomingEvents a {
+    text-decoration: none;
+    color: white;
+    background-color: #fb2056;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 30px;
+}
+
+.detailsUpcomingEvents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.detailsUpcomingEvents img {
+    width: 475px;
+    height: 297px;
+    box-shadow: 10px 10px 0 1px #00000012;
+    border-radius: 4px;
+    margin-top: 5%;
+}
+
+.detailsUpcomingEvents h5,
+.detailsUpcomingEvents p {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.detailsUpcomingEvents h5 {
+    font-family: "montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.detailsUpcomingEvents p {
+    font-family: "montserrat", sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+/*explore the world*/
+.exploreWorld {
+    background-image: url(/images/exploreNewWorld.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 770px;
+}
+
+.exploreWorldText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    padding-top: 20%;
+    padding-left: 55%;
+    font-family: "montserrat", sans-serif;
+    align-items: flex-start;
+    color: white;
+}
+
+.exploreWorldText h2,
+.exploreWorldText img,
+.exploreWorldText p {
+    padding-bottom: 4%;
+}
+
+.exploreWorldText h2 {
+    font-size: 2rem;
+}
+
+.exploreWorldText .text {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.exploreWorldText .button {
+    padding-top: 3%;
+}
+
+.exploreWorld a {
+    color: white;
+    text-decoration: none;
+    background-color: #fb2056;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 30px;
+}
+
+/*upcomingTours*/
+.upcomingTours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 120px 120px;
+}
+
+.upcomingToursText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    padding-top: 10px;
+    padding-right: 60px;
+    font-family: "montserrat",sans-serif;
+    gap: 2em;
+}
+
+.upcomingToursText h2{
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
+.upcomingToursText p{
+    font-family: 'Noto Sans',sans-serif;
+    line-height: 1.7;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.upcomingTours a{
+    color: white;
+    text-decoration: none;
+    background-color: #fb2056;
+    padding: 12px 40px 12px 40px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 30px;
+}
+
+.imgLeft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imgLeft .outdoorOne {
+    width: 360px;
+    height: 225px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.imgLeft .outdoorTwo {
+    width: 360px;
+    height: 367px;
+    border-radius: 4px;
+}
+
+.imgRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imgRight .outdoorThree {
+    width: 360px;
+    height: 367px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.imgRight .outdoorFour {
+    width: 360px;
+    height: 207px;
+    border-radius: 4px;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p{
+    color: white;
+    line-height: 3em;
+    font-family:'Noto Sans', sans-serif;
+}
