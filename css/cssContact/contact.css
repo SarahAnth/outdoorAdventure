@@ -74,6 +74,18 @@ header p {
 }
 
 /* message and contact*/
+
+h1{
+    font-family: "montserrat", sans-serif;
+}
+
+h5, p{
+    font-family: "noto sans",sans-serif;
+}
+
+h5{
+    font-size: 17px;
+}
 .talkInfo{
     display: flex;
     flex-wrap: wrap;
@@ -83,9 +95,26 @@ header p {
     margin: 0 274px 0 274px;
 }
 
-.talk{
+.talk, .info{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 3%;
+    margin: 10px;
+    gap: 10px;
+}
+
+.talk textarea{
+    background-color: #FAFAFA;
+    color: grey;
+    border-color: rgb(183, 183, 183);
+    font-family: "noto sans",sans-serif;
+    padding: 10px;
+}
+
+.info .infoText{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
 }
